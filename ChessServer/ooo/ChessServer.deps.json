@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ChessServer/1.0.0": {
+        "dependencies": {
+          "ChessClient": "1.0.0",
+          "ChessLogic": "1.0.0",
+          "ChessUI": "1.0.0"
+        },
+        "runtime": {
+          "ChessServer.dll": {}
+        }
+      },
+      "ChessClient/1.0.0": {
+        "dependencies": {
+          "ChessLogic": "1.0.0"
+        },
+        "runtime": {
+          "ChessClient.dll": {}
+        }
+      },
+      "ChessLogic/1.0.0": {
+        "runtime": {
+          "ChessLogic.dll": {}
+        }
+      },
+      "ChessUI/1.0.0": {
+        "dependencies": {
+          "ChessClient": "1.0.0",
+          "ChessLogic": "1.0.0"
+        },
+        "runtime": {
+          "ChessUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChessServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChessClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChessUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
